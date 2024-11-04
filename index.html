@@ -40,76 +40,89 @@
       </header>
 
       <main>
-        <article class="flex flex-col gap-5 mb-8">
-          <img src="./assets/images/image-web-3-mobile.jpg" alt="Web 3.0" />
+        <div class="xl:flex xl:gap-10 xl:mb-10">
+          <article class="flex flex-col gap-5 mb-8">
+            <img
+              src="./assets/images/image-web-3-mobile.jpg"
+              alt="Web 3.0"
+              class="md:hidden"
+            />
+            <img
+              src="./assets/images/image-web-3-desktop.jpg"
+              alt="Web 3.0"
+              class="hidden md:block"
+            />
 
-          <div class="flex flex-col gap-5 md:flex-row">
-            <h1 class="text-5xl text-neutral-very-dark-blue font-extrabold">
-              The Bright Future of Web 3.0?
-            </h1>
+            <div class="flex flex-col gap-5 md:flex-row">
+              <h1 class="text-5xl text-neutral-very-dark-blue font-extrabold">
+                The Bright Future of Web 3.0?
+              </h1>
 
-            <div class="flex flex-col gap-5">
-              <p>
-                We dive into the next evolution of the web that claims to put
-                the power of the platforms back into the hands of the people.
-                But is it really fulfilling its promise?
-              </p>
-              <a
-                href="#"
-                class="bg-primary-red p-5 flex justify-center items-center uppercase tracking-[0.2em] text-neutral-off-white font-bold w-[55%]"
-              >
-                Read more
-              </a>
+              <div class="flex flex-col gap-5">
+                <p>
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of the people.
+                  But is it really fulfilling its promise?
+                </p>
+                <a
+                  href="#"
+                  class="bg-primary-red p-5 flex justify-center items-center uppercase tracking-[0.2em] text-neutral-off-white font-bold w-[55%]"
+                >
+                  Read more
+                </a>
+              </div>
             </div>
-          </div>
-        </article>
+          </article>
 
-        <section class="flex flex-col gap-5 p-5 bg-neutral-very-dark-blue mb-8">
-          <h2 class="text-primary-orange text-3xl font-bold">New</h2>
+          <section
+            class="flex flex-col gap-5 p-5 bg-neutral-very-dark-blue mb-8"
+          >
+            <h2 class="text-primary-orange text-3xl font-bold">New</h2>
 
-          <a href="#" class="group">
-            <article>
-              <h3
-                class="text-neutral-off-white text-xl font-bold group-hover:text-primary-orange"
-              >
-                Hydrogen VS Electric Cars
-              </h3>
+            <a href="#" class="group">
+              <article>
+                <h3
+                  class="text-neutral-off-white text-xl font-bold group-hover:text-primary-orange"
+                >
+                  Hydrogen VS Electric Cars
+                </h3>
 
-              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-            </article>
-          </a>
-          <hr />
-          <a href="#" class="group">
-            <article>
-              <h3
-                class="text-neutral-off-white text-xl font-bold group-hover:text-primary-orange"
-              >
-                The Downsides of AI Artistry
-              </h3>
-              <p>
-                What are the possible adverse effects of on-demand AI image
-                generation?
-              </p>
-            </article>
-          </a>
-          <hr />
-          <a href="#" class="group">
-            <article>
-              <h3
-                class="text-neutral-off-white text-xl font-bold group-hover:text-primary-orange"
-              >
-                Is VC Funding Drying Up?
-              </h3>
-              <p>
-                Private funding by VC firms is down 50% YOY. We take a look at
-                what that means.
-              </p>
-            </article>
-          </a>
-        </section>
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+              </article>
+            </a>
+            <hr />
+            <a href="#" class="group">
+              <article>
+                <h3
+                  class="text-neutral-off-white text-xl font-bold group-hover:text-primary-orange"
+                >
+                  The Downsides of AI Artistry
+                </h3>
+                <p>
+                  What are the possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+              </article>
+            </a>
+            <hr />
+            <a href="#" class="group">
+              <article>
+                <h3
+                  class="text-neutral-off-white text-xl font-bold group-hover:text-primary-orange"
+                >
+                  Is VC Funding Drying Up?
+                </h3>
+                <p>
+                  Private funding by VC firms is down 50% YOY. We take a look at
+                  what that means.
+                </p>
+              </article>
+            </a>
+          </section>
+        </div>
 
-        <section class="flex flex-col gap-5">
-          <a href="#" class="group">
+        <section class="flex flex-wrap gap-5">
+          <a href="#" class="group lg:w-[45%] xl:w-[32%]">
             <article class="flex gap-5">
               <img
                 src="./assets/images/image-retro-pcs.jpg"
@@ -127,7 +140,8 @@
               </div>
             </article>
           </a>
-          <a href="#" class="group">
+
+          <a href="#" class="group lg:w-[45%] xl:w-[32%]">
             <article class="flex gap-5">
               <img
                 src="./assets/images/image-top-laptops.jpg"
@@ -145,7 +159,8 @@
               </div>
             </article>
           </a>
-          <a href="#" class="group">
+
+          <a href="#" class="group lg:w-[45%] xl:w-[32%]">
             <article class="flex gap-5">
               <img
                 src="./assets/images/image-gaming-growth.jpg"
